@@ -1,0 +1,40 @@
+# === Node ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# === Next.js build output ===
+.next/
+out/
+
+# === Environment variables ===
+.env
+
+# === Logs ===
+logs
+*.log
+*.log.*
+lerna-debug.log*
+
+# === OS / Editor files ===
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# === TypeScript ===
+*.tsbuildinfo
+
+# === Misc ===
+coverage/
+dist/
+build/
+.cache/
+.tmp/
+.vercel/
